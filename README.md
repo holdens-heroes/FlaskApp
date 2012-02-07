@@ -16,9 +16,9 @@ Development Setup
 -----------------
 
 1. Install pip:
-    `~$ easy_install pip`
+    `~$ sudo easy_install pip`
 
 2. Install Flask using pip:
-    `~$ pip install Flask`
+    `~$ sudo pip install Flask`
 
 
