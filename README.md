@@ -9,6 +9,7 @@ Pre-reqs
 --------
 
 - Python > 2.6
+	`~$ python -V`
 
 ***
 
