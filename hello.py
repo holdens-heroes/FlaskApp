@@ -1,3 +1,4 @@
+from tests import TestClass
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
@@ -8,6 +9,8 @@ app.debug = True
 @app.route("/hello/")
 @app.route("/hello/<name>")
 def hello(name=None):
+	test_class = TestClass("good luvin'")
+	test_class.run_test()
 	return render_template('hello.html', name=name)
 
 @app.route("/login", methods=['GET', 'POST'])
